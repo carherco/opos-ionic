@@ -1,0 +1,25 @@
+/* Empty. Add your own CSS if you like */
+
+.texto_pregunta_container {
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
+}
+
+.texto_pregunta{
+    margin-top: 10px;
+}
+
+.etiqueta {
+    background-color: skyblue;
+    margin: 0px 2px 8px 0px;
+    padding: 2px 8px 2px 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: skyblue;
+    border-radius: 4px;
+}
+
+.item-radio.correcta.comprobar .item-content {background-color: lawngreen}
+.item-radio.comprobar input:checked + .radio-content .item-content {background: orangered;}
+.item-radio.correcta.comprobar input:checked + .radio-content .item-content {background: lawngreen;}
